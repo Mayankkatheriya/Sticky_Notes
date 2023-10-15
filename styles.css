@@ -38,6 +38,35 @@ textarea::placeholder {
   font-size: 0.8rem;
   color: rgb(33, 145, 153);
 }
+textarea {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  resize: none;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 0.5rem;
+  height: 150px;
+  
+}
+
+textarea:hover {
+  background-color: #fff;
+}
+
+textarea:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
 input {
   width: 80px;
   height: 40px;
@@ -117,6 +146,7 @@ main {
   text-overflow: ellipsis;
   border-radius: 5px;
   box-shadow: -20px 34px 30px -6px rgba(71, 71, 71, 1);
+  word-wrap: break-word;
 }
 .myNote p {
   font-size: 1.12rem;
