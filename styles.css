@@ -197,14 +197,10 @@ main {
   display: none;
 }
 h4{
+  margin-top: 1rem;
     font-size: 0.6rem;
-    color: rgb(0, 0, 0);
+    color: rgb(46, 29, 8);
     text-align: center;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 0;
-    z-index: 5;
  }
 h4 span a{
     color: rgb(255, 0, 0);
