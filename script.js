@@ -11,9 +11,9 @@ data.addEventListener("submit", (e) => {
   div.innerHTML = `<p class = "note-text">${text}</p>
     <p class="pin">📌</p>
     <div class = "btn-container">
-    <button class="deleteBtn">🗑</button>
+    <button class="deleteBtn">🗑️</button>
     <button class="EditBtn">🖊</button>
-    <button class="saveBtn">📁</button>
+    <button class="saveBtn">💾</button>
     </div>`;
   if (text == "") {
     alert("Please enter a valid Note");
@@ -28,7 +28,7 @@ function activate(e) {
   let btnTarget = e.target.textContent;
   let para = e.target.parentElement.parentElement.querySelector(".note-text");
   let saveBtn = e.target.parentElement.querySelector(".saveBtn");
-  if (btnTarget === "🗑") {
+  if (btnTarget === "🗑️") {
     e.target.parentElement.parentElement.remove();
   } else if (btnTarget === "🖊") {
     let para = e.target.parentElement.parentElement.querySelector(".note-text");
