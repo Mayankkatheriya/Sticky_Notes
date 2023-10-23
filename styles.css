@@ -133,27 +133,31 @@ main {
   position: relative;
 }
 .myNote {
-  padding: 16px;
-  padding-bottom: 32px;
+  padding: 20px;
+  padding-bottom: 38px;
   width: 200px;
-  min-height: 150px;
+  min-height: 180px;
   transform: rotate(8deg) translate(20px, 10px);
-  color: rgb(63, 61, 61);
+  color: rgb(24, 206, 238);
   font-size: 1rem;
   font-weight: 600;
   position: relative;
   text-overflow: ellipsis;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: -10px 20px 10px -6px rgba(71, 71, 71, 1);
   word-wrap: break-word;
   transition: all 0.5s ease-in-out;
+  
 }
 .myNote:hover{
   transform: rotate(0deg) translate(20px, 10px);
 }
 .myNote p {
   font-size: 1.12rem;
-  color: black;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
 .pin {
   position: absolute;
@@ -168,7 +172,8 @@ main {
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #e2cb98 0 -3px 0 inset;
   font-weight: 600;
   bottom: 10px;
-  width: 20px;
+  width: 25px;
+  padding: 2px 0;
 }
 .myNote button:focus {
   box-shadow: #ebdc99 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
@@ -187,15 +192,21 @@ main {
 
 .deleteBtn {
   position: absolute;
-  right: 10px;
+  right: 5px;
+  font-size: 1rem;
+  text-align: center;
 }
 .EditBtn {
   position: absolute;
-  right: 32px;
+  right: 35px;
+  font-size: 1rem;
+  text-align: center;
 }
 .saveBtn {
   position: absolute;
-  right: 32px;
+  right: 35px;
+  font-size: 1rem;
+  text-align: center;
 
   display: none;
 }
